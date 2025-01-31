@@ -1,0 +1,18 @@
+[[opam]]
+arch = "x86_64"
+git-tree-sha1 = "5d7b3b41786c6e828f4d0df646c6c7b8cc2c750a"
+libc = "glibc"
+os = "linux"
+
+    [[opam.download]]
+    sha256 = "8027c51a06eb5dd876ee090fccffe663d2b9d327f27b0be4072e14b3aeb183c1"
+    url = "https://github.com/JuliaBinaryWrappers/opam_jll.jl/releases/download/opam-v2.3.0+0/opam.v2.3.0.x86_64-linux-gnu.tar.gz"
+[[opam]]
+arch = "x86_64"
+git-tree-sha1 = "2af092e8333a5c9021d083cff7262b82bd4a4759"
+libc = "musl"
+os = "linux"
+
+    [[opam.download]]
+    sha256 = "8b4665f3eef44d580933856e3d55c8b707e29381b88e818e9d6c3caaa6787335"
+    url = "https://github.com/JuliaBinaryWrappers/opam_jll.jl/releases/download/opam-v2.3.0+0/opam.v2.3.0.x86_64-linux-musl.tar.gz"
